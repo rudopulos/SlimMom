@@ -32,6 +32,7 @@ function App() {
           path="/login"
           element={
             <Suspense fallback={<Loader />}>
+              {console.log("Navigating to Login page")}
               <Login />
             </Suspense>
           }
@@ -40,6 +41,7 @@ function App() {
           path="/calculator"
           element={
             <Suspense fallback={<Loader />}>
+              {console.log("Navigating to Login page")}
               <Calculator />
             </Suspense>
           }
