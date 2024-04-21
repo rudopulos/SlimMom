@@ -1,0 +1,56 @@
+.formContainer {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 610px;
+  height: 439px;
+}
+.formDate {
+  font-weight: 700;
+  font-size: 34px;
+  color: #212121;
+  border: none;
+  margin: 50px 0px;
+}
+.addContainer {
+  display: flex;
+  gap: 50px;
+}
+
+.formField:nth-child(1n) {
+  outline: none;
+  padding-left: 21px;
+  width: 71px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #212121;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+.submitButton {
+  width: 48px;
+  height: 48px;
+  background-color: #fc842d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.productsContainer {
+  width: 555px;
+}
+.productsList {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.productsItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
