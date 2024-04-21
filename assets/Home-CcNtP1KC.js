@@ -1,0 +1,1 @@
+import{j as r}from"./index-B4bITQ3H.js";import{C as o}from"./CalculatorForm-COrsYLIO.js";import{H as s}from"./Header-cXSeFYpR.js";import"./authSelectors-u0QlxlXK.js";const i=()=>r.jsxs("div",{className:"container",children:[r.jsx(s,{}),r.jsx(o,{})]});export{i as default};
